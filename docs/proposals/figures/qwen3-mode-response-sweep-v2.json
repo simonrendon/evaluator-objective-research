@@ -1,0 +1,201 @@
+{
+  "analysis": "/Users/simonrendon/workspace/anthropic-interpretability/outputs/bridge-sweep-final-v1/combined-analysis.json",
+  "analysis_sha256": "9749257451b875d4c446c7ab766cebf0ee3238a9258561214a1981321aa61e3a",
+  "points": [
+    {
+      "size": 0.6,
+      "label": "0.6B",
+      "historical": false,
+      "candidate": {
+        "correct": 12,
+        "assigned": 36,
+        "ties_uncredited": 0,
+        "metric": "unique candidate-label argmax at off first position",
+        "independent_of_subsequent_answer_format": true
+      },
+      "on": {
+        "all_assigned_accuracy": 0.25,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.25,
+        "continuous_score_count": 25,
+        "correct": 9,
+        "mean_correct_class_logprob": -5.091322173244682,
+        "parsed": 25,
+        "statuses": {
+          "invalid_final_answer": 11,
+          "parsed": 25
+        }
+      },
+      "off": {
+        "all_assigned_accuracy": 0.0,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.0,
+        "continuous_score_count": 36,
+        "correct": 0,
+        "mean_correct_class_logprob": -2.1460128966045597,
+        "parsed": 1,
+        "statuses": {
+          "invalid_final_answer": 35,
+          "parsed": 1
+        }
+      }
+    },
+    {
+      "size": 1.7,
+      "label": "1.7B",
+      "historical": false,
+      "candidate": {
+        "correct": 11,
+        "assigned": 36,
+        "ties_uncredited": 1,
+        "metric": "unique candidate-label argmax at off first position",
+        "independent_of_subsequent_answer_format": true
+      },
+      "on": {
+        "all_assigned_accuracy": 0.3611111111111111,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.3611111111111111,
+        "continuous_score_count": 31,
+        "correct": 13,
+        "mean_correct_class_logprob": -7.524498498783377,
+        "parsed": 31,
+        "statuses": {
+          "invalid_final_answer": 4,
+          "non_eos_or_truncated": 1,
+          "parsed": 31
+        }
+      },
+      "off": {
+        "all_assigned_accuracy": 0.1388888888888889,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.1388888888888889,
+        "continuous_score_count": 36,
+        "correct": 5,
+        "mean_correct_class_logprob": -4.683728352321177,
+        "parsed": 24,
+        "statuses": {
+          "invalid_final_answer": 12,
+          "parsed": 24
+        }
+      }
+    },
+    {
+      "size": 4.0,
+      "label": "4B",
+      "historical": false,
+      "candidate": {
+        "correct": 10,
+        "assigned": 36,
+        "ties_uncredited": 1,
+        "metric": "unique candidate-label argmax at off first position",
+        "independent_of_subsequent_answer_format": true
+      },
+      "on": {
+        "all_assigned_accuracy": 0.5555555555555556,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.5555555555555556,
+        "continuous_score_count": 35,
+        "correct": 20,
+        "mean_correct_class_logprob": -5.1928851543467145,
+        "parsed": 35,
+        "statuses": {
+          "non_eos_or_truncated": 1,
+          "parsed": 35
+        }
+      },
+      "off": {
+        "all_assigned_accuracy": 0.3055555555555556,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.3055555555555556,
+        "continuous_score_count": 36,
+        "correct": 11,
+        "mean_correct_class_logprob": -3.9057516129283356,
+        "parsed": 36,
+        "statuses": {
+          "parsed": 36
+        }
+      }
+    },
+    {
+      "size": 8.0,
+      "label": "8B",
+      "historical": false,
+      "candidate": {
+        "correct": 13,
+        "assigned": 36,
+        "ties_uncredited": 0,
+        "metric": "unique candidate-label argmax at off first position",
+        "independent_of_subsequent_answer_format": true
+      },
+      "on": {
+        "all_assigned_accuracy": 0.7222222222222222,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.7222222222222222,
+        "continuous_score_count": 36,
+        "correct": 26,
+        "mean_correct_class_logprob": -5.002191562272738,
+        "parsed": 36,
+        "statuses": {
+          "parsed": 36
+        }
+      },
+      "off": {
+        "all_assigned_accuracy": 0.3611111111111111,
+        "assigned": 36,
+        "attempted": 36,
+        "attempted_only_accuracy_secondary": 0.3611111111111111,
+        "continuous_score_count": 36,
+        "correct": 13,
+        "mean_correct_class_logprob": -3.058964553342279,
+        "parsed": 36,
+        "statuses": {
+          "parsed": 36
+        }
+      }
+    },
+    {
+      "size": 32.0,
+      "label": "32B",
+      "status": "completed",
+      "historical": true,
+      "on": {
+        "assigned": 36,
+        "attempted": 36,
+        "parsed": 36,
+        "correct": 32,
+        "continuous_score_count": 0
+      },
+      "off": {
+        "assigned": 36,
+        "attempted": 36,
+        "parsed": 36,
+        "correct": 11,
+        "continuous_score_count": 0
+      },
+      "candidate": null
+    }
+  ],
+  "candidate_series_sizes": [
+    "0.6B",
+    "1.7B",
+    "4B",
+    "8B"
+  ],
+  "readouts_differ_between_primary_series": true,
+  "paired_intervals_derived_from_strict_reports_only": true,
+  "candidate_32b_imputed": false,
+  "sol_reference": {
+    "correct": 432,
+    "assigned": 432,
+    "cohort": "separate I1/I2 reasoning-enabled check"
+  },
+  "exploratory": true,
+  "ties": "unique argmax; ties receive no credit, retained in denominator"
+}

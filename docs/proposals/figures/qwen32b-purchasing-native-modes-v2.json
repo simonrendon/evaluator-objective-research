@@ -1,0 +1,96 @@
+{
+  "assigned_per_panel_cell": 24,
+  "error_bars": "none; descriptive counts",
+  "evaluation_framing": false,
+  "independent_base_clusters": 8,
+  "inputs": {
+    "outputs/purchasing-mode-comparison-v1/off-records.json": {
+      "bytes": 299304,
+      "sha256": "d41fb1c618e749b0b31e03307595ebf6aa841c8b76284dc54cf4dd7ea70f227d"
+    },
+    "outputs/purchasing-pilot-analysis-v2/records.json": {
+      "bytes": 426568,
+      "sha256": "47b0aa8e5a131d5c52438e6ad3be74c6e090b10b97ef224fa1e309774063b58d"
+    }
+  },
+  "matplotlib_version": "3.11.2",
+  "native_mode_not_isolated_computation": true,
+  "panels": [
+    {
+      "bars": [
+        {
+          "assigned": 24,
+          "condition": "C2",
+          "customer_favored": 19,
+          "label": "Aligned"
+        },
+        {
+          "assigned": 24,
+          "condition": "C3",
+          "customer_favored": 21,
+          "label": "Conflicting"
+        }
+      ],
+      "family": "I1",
+      "mode": "off"
+    },
+    {
+      "bars": [
+        {
+          "assigned": 24,
+          "condition": "C2",
+          "customer_favored": 24,
+          "label": "Aligned"
+        },
+        {
+          "assigned": 24,
+          "condition": "C3",
+          "customer_favored": 9,
+          "label": "Conflicting"
+        }
+      ],
+      "family": "I1",
+      "mode": "on"
+    },
+    {
+      "bars": [
+        {
+          "assigned": 24,
+          "condition": "C2",
+          "customer_favored": 23,
+          "label": "Aligned"
+        },
+        {
+          "assigned": 24,
+          "condition": "C3",
+          "customer_favored": 11,
+          "label": "Conflicting"
+        }
+      ],
+      "family": "T1",
+      "mode": "off"
+    },
+    {
+      "bars": [
+        {
+          "assigned": 24,
+          "condition": "C2",
+          "customer_favored": 24,
+          "label": "Aligned"
+        },
+        {
+          "assigned": 24,
+          "condition": "C3",
+          "customer_favored": 9,
+          "label": "Conflicting"
+        }
+      ],
+      "family": "T1",
+      "mode": "on"
+    }
+  ],
+  "script": {
+    "bytes": 4398,
+    "sha256": "1aa1b31d18b916daa4290e791db857ac97dddd3bdfe735b2ddfb98d741a5de43"
+  }
+}
